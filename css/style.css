@@ -12,9 +12,10 @@ body{
     font-family: 华文中宋;
     font-size: 41px;
 	line-height: 120px;
-	
+	color:white;
 }
 .custom_text{
+	color:white;
 	text-align: center;
     margin: auto;
     /* width: 300px; */
