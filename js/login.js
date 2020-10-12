@@ -414,7 +414,7 @@ function logBtnClick()
 	pwd = document.getElementById('password').value;
 	if (md5(pwd) == hash)
 	{
-		window.location.href = 'pages.html';
+		window.location.href = 'https://holit.github.io/pages.html';
 	}
 	else
 	{

@@ -1,19 +1,14 @@
+var args = sHref.split("?");
+var retval = "";
 
-var downArrow = document.getElementById("btn1");
-var upArrow = document.getElementById("btn2");
+if(args[0] == sHref) /*参数为空*/
+{
+	throw "Not verficated"
+}  
+var str = args[1];
+args = str.split("&");
+if(args[0]!= 'e10adc3949ba59abbe56e057f20f883e')
+{
+	throw "Not verficated"
+}
 
-downArrow.onclick = function () {
-    'use strict';
-    document.getElementById("first-list").style = "top:-620px";
-    document.getElementById("second-list").style = "top:-620px";
-    downArrow.style = "display:none";
-    upArrow.style = "display:block";
-};
-
-upArrow.onclick = function () {
-    'use strict';
-    document.getElementById("first-list").style = "top:0";
-    document.getElementById("second-list").style = "top:80px";
-    upArrow.style = "display:none";
-    downArrow.style = "display:block";
-};
