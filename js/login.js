@@ -414,7 +414,8 @@ function logBtnClick()
 	pwd = document.getElementById('password').value;
 	if (md5(pwd) == hash)
 	{
-		window.location.href = 'https://holit.github.io/pages.html';
+		console.log("Veificatied.")
+		self.location = 'https://holit.github.io/pages.html';
 	}
 	else
 	{
