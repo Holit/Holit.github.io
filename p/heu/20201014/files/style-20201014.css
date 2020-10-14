@@ -18,8 +18,8 @@ body{
 
 #topPic{
 	margin-left:144px;
-	width: 405px;
 	float:left;
+	align = center;
 }
 
 .bold_title{
