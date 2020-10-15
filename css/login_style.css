@@ -8,10 +8,14 @@
 
 body{
     min-height: 100vh;
-    background-image: linear-gradient(120deg, #3498db, #8e44ad);
+    background-image: url(https://api.ixiaowai.cn/mcapi/mcapi.php);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center 0;
 }
 
 .login-form{
+	opacity:0.75;
     width: 360px;
     background: #f1f1f1;
     height: 580px;
@@ -27,7 +31,10 @@ body{
     text-align: center;
     margin-bottom: 60px;
 }
-
+.login-form h3{
+    text-align: center;
+    margin-bottom: 60px;
+}
 .txtb{
     border-bottom: 2px solid #adadad;
     position: relative;
